@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ * {
+        
+            
+            list-style: none;
+        }
+
+        body{
+        
+        
+        
+        background-image: url("img/pia.jpg");
+        /* background-repeat: no-repeat;*/
+        
+        background-size: 100%;
+        }
+        header#hprincipal{
+        
+        font-family: serif;
+        background-color: rgb(16, 50, 240);
+        position: relative;
+        width: 1300px;
+        height: 200px;
+        *border-bottom: 1px solid #000;
+        padding: 1;
+        background-image: url("img/mus.jpg");
+        
+        }
+        header#hprincipal .logo{
+        /*id logo .  */
+        /* posion no se mueve */
+        position: absolute;
+        background-image: url("img/logo.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 140px;
+        top: 20px;
+        left: 100px;
+        
+        }
+        header#hprincipal h1{
+        
+        position: absolute;
+        
+        left: 580px;
+        top:100px;
+        color: #d8db0e;
+        font-size: 50px;
+        font-family: "Segoe UI"
+        /*fuentes de letras */
+        }
+        nav{
+            position:relative;
+            margin:auto;
+            width:1000px;
+            height:48px;
+            }
+                
+        .botones{
+            float:left;
+            width:196px;
+            margin:0px 2px;
+            height:48px;
+            background:rgb(7, 88, 211);
+            font-family: 'Kaushan Script', cursive;
+            color:white;
+            text-align:center;
+            line-height:48px;
+            }
+            
+        a .botones:hover{
+            background:rgba(226, 176, 10, 0.4);
+            }
+            
+        a .botones:active{
+            background:rgb(165, 201, 7);
+            }
+            section{
+            position:relative;
+            margin:auto;
+            width:100%;
+            height:453px;
+            border: 1px solid #da920d;
+            }
+            
+            .botone{
+            
+            width:196px;
+            margin-bottom:10px ;
+            height:48px;
+            background:rgb(5, 76, 230);
+            font-family: 'Kaushan Script', cursive;
+            color:white;
+            text-align:center;
+            line-height:48px;
+            }
+            
+        a .botone:hover{
+            background:rgba(226, 176, 10, 0.4);
+            }
+            
+        a .botone:active{
+            background:rgb(165, 201, 7);
+            }
+            section{
+            position:relative;
+            margin:auto;
+            width:100%;
+            height:453px;
+            border: 1px solid #0f30ee;
+            }
+        aside#izq{
+            border: 1px solid #0b32db;
+            position:absolute;
+            left:0;
+            top:0;
+            width:400px;
+            height:453px;
+            
+            }
+            aside#der{
+            position:absolute;
+            border: 1px solid #1e0fe9;
+            right:0;
+            top:0;
+            width:450px;
+            height:453px;
+            }
+        
+        
+            </style>
+
+
+
+
+
+
+    
+</head>
+<body>
+
+    <header id="hprincipal">
+        <a href="pagi.html"><div class="logo"></div></a>
+        <h1>Live Music School</h1>
+    </header>
+
+    <nav>
+
+        <ul>
+        
+            <a href="#"><li class="botones">Inicio</li></a>
+            <a href="#"><li class="botones">Salir</li></a>
+            
+            
+      
+        </ul>
+    
+    </nav>
+    <section>
+
+        <aside id="izq">
+    	
+            <ul>
+    
+                <a href="#"><li class="botone">Avances de curso</li></a>
+                <a href="#"><li class="botone">Clase Pendientes</li></a>
+                <a href="#"><li class="botone">Notas</li></a>
+                <a href="#"><li class="botone">Configuracion de Perfil</li></a>
+                <a href="#"><li class="botone">Guia de clase</li></a>
+          
+            </ul>
+        
+        </aside>
+
+        <aside id="der">
+    
+            <iframe width="450" height="453" src="https://www.youtube.com/embed/w_1quQbOqpI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        </aside>
+    </section>
+
+    
+    
+</body>
+</html>
